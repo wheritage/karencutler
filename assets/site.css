@@ -120,10 +120,10 @@ button{font:inherit;color:inherit}
 .menu-open{overflow:hidden}
 
 /* ---------- HERO (home) ---------- */
-.hero{position:relative;overflow:hidden;padding-top:clamp(28px,5vw,56px)}
-.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center;min-height:calc(100svh - 76px);max-height:900px}
+.hero{position:relative;overflow:hidden;padding-top:clamp(12px,2vw,28px)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;align-items:center}
 .hero-copy{position:relative;z-index:3;padding-block:clamp(32px,5vw,64px)}
-.hero-title{font-size:clamp(3.6rem,8.2vw,7.6rem)}
+.hero-title{font-size:clamp(3.6rem,7.4vw,9rem)}
 .hero-title .line{display:block;overflow:hidden;padding-bottom:.04em}
 .hero-title .line > span{display:block;transform:translateY(105%);transition:transform 1s var(--ease-out)}
 .is-loaded .hero-title .line > span{transform:none}
@@ -137,7 +137,7 @@ button{font:inherit;color:inherit}
 .is-loaded .hero-fade.d2{transition-delay:.45s}
 .is-loaded .hero-fade.d3{transition-delay:.6s}
 
-.hero-visual{position:relative;align-self:end;display:flex;align-items:flex-end;justify-content:center;height:min(calc(100svh - 96px),800px);min-height:480px}
+.hero-visual{position:relative;align-self:end;display:flex;align-items:flex-end;justify-content:center;height:min(calc(100svh - 110px),46vw,760px);min-height:480px}
 .plate{
   position:absolute;left:50%;top:52%;width:min(540px,96%);aspect-ratio:1;
   transform:translate(-50%,-50%) scale(.85) rotate(-40deg);opacity:0;
