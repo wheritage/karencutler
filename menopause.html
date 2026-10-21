@@ -31,7 +31,7 @@
 <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li></ul></nav>
     <div class="nav-tools">
       <button class="lang" type="button" data-lang-toggle aria-label="Passer en français">FR</button>
-      <a class="btn btn--primary nav-cta" href="contact.html" data-i18n="cta_start">Start training</a>
+      <a class="btn btn--primary nav-cta" href="contact.html" data-i18n="cta_call">Free intro call</a>
       <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -41,7 +41,7 @@
 <a class="m-link" href="programs.html"><span data-i18n="nav_programs">Programs</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 <a class="m-link" href="menopause.html" aria-current="page"><span data-i18n="nav_menopause">Menopause</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 <a class="m-link" href="about.html"><span data-i18n="nav_about">About</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn--primary" href="contact.html"><span data-i18n="cta_start">Start training</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <a class="btn btn--primary" href="contact.html"><span data-i18n="cta_call">Free intro call</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
 
 <main id="main">
@@ -72,7 +72,33 @@
     </div>
   </section>
 
+  <!-- IS THIS YOU? -->
   <section class="section">
+    <div class="wrap mp-split">
+      <div class="reveal">
+        <h2 class="h2" data-i18n="chk_t">Does this sound like you?</h2>
+        <p class="lede" style="margin-top:20px" data-i18n="chk_d">Check anything you've noticed lately. There's no score, just a starting point for our conversation.</p>
+      </div>
+      <div class="reveal" data-d="1">
+        <div class="checklist" data-checklist>
+          <label class="chk"><input type="checkbox" value="sleep"><span data-i18n="c1">Poor or broken sleep</span></label>
+          <label class="chk"><input type="checkbox" value="energy"><span data-i18n="c2">Low energy during the day</span></label>
+          <label class="chk"><input type="checkbox" value="joints"><span data-i18n="c3">Achy or stiff joints</span></label>
+          <label class="chk"><input type="checkbox" value="weight"><span data-i18n="c4">Weight shifting to the middle</span></label>
+          <label class="chk"><input type="checkbox" value="strength"><span data-i18n="c5">Feeling weaker than before</span></label>
+          <label class="chk"><input type="checkbox" value="fog"><span data-i18n="c6">Brain fog</span></label>
+          <label class="chk"><input type="checkbox" value="hot"><span data-i18n="c7">Hot flashes getting in the way</span></label>
+          <label class="chk"><input type="checkbox" value="confidence"><span data-i18n="c8">Less confident in my body</span></label>
+        </div>
+        <div class="check-result" aria-live="polite">
+          <p><b data-count>0</b><span data-i18n="chk_res">You're far from alone. These changes are common, and the right training can help with many of them. Let's talk about yours.</span></p>
+          <a class="btn btn--primary magnetic" href="contact.html" data-check-cta><span data-i18n="chk_cta">Bring these to a free call</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tint">
     <div class="wrap mp-split">
       <div class="reveal">
         <h2 class="h2" data-i18n="mp_ch_t">What changes, and how we train for it</h2>
@@ -113,7 +139,7 @@
     </div>
   </section>
 
-  <section class="section section--tint">
+  <section class="section">
     <div class="wrap">
       <div class="head">
         <h2 class="h2 reveal" data-i18n="mp_p_t">What we focus on</h2>
@@ -126,6 +152,24 @@
         <div class="pillar"><svg class="draw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2.2 4 2.2 4-2.2 4-2.2"/><path d="M9 9.5h.01M15 9.5h.01"/></svg><h3 data-i18n="pl4_t">Confidence</h3><p data-i18n="pl4_d">Movement that helps you feel like yourself again, capable and at ease.</p></div>
       </div>
       <p class="muted reveal" style="margin-top:28px;font-size:.92rem;max-width:70ch" data-i18n="mp_note">Training complements, but doesn't replace, medical care. For symptoms or treatment questions, talk to your doctor.</p>
+    </div>
+  </section>
+
+  <!-- FREE GUIDE -->
+  <section class="section section--tint">
+    <div class="wrap">
+      <div class="guide ph reveal"><span class="ph-tag">Guide PDF to create with Karen</span>
+        <div class="guide-cover"><b data-i18n="gd_cover">5 strength moves for midlife</b><small>Karen Cutler</small></div>
+        <div>
+          <h2 data-i18n="gd_t">Free guide: 5 strength moves for midlife</h2>
+          <p data-i18n="gd_d">Five simple exercises you can do at home to protect your bones, joints and energy, with photos and clear instructions.</p>
+          <form class="guide-form" data-guide novalidate>
+            <input type="email" name="email" required placeholder="Your email" data-i18n-ph="gd_ph" aria-label="Email">
+            <button class="btn btn--primary" type="submit" data-i18n="gd_btn">Send me the guide</button>
+          </form>
+          <p class="guide-msg" aria-live="polite"></p>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -156,6 +200,7 @@
         <a href="menopause.html" data-i18n="nav_menopause">Menopause</a>
         <a href="about.html" data-i18n="nav_about">About</a>
         <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <a class="ph-inline" href="#" data-ig>Instagram @handle</a>
       </div>
       <div>
         <h4 data-i18n="foot_contact">Contact</h4>
@@ -166,10 +211,12 @@
     </div>
     <div class="foot-bottom">
       <span>© <span data-year></span> Karen Cutler. <span data-i18n="foot_rights">All rights reserved.</span></span>
-      <span data-i18n="foot_tag">Fitness with a smile</span>
+      <span class="foot-legal"><a href="privacy.html" data-i18n="foot_privacy">Privacy policy</a><a href="privacy.html#disclaimer" data-i18n="foot_disclaimer">Health disclaimer</a></span>
     </div>
   </div>
 </footer>
 <div class="wipe" aria-hidden="true"></div>
+<div class="concept-bar" role="note"><i></i><span>Concept preview. Yellow dashed = info needed from Karen.</span><button type="button" data-clean>Hide notes</button></div>
+<button class="concept-show" type="button" data-clean>Show notes</button>
 </body>
 </html>

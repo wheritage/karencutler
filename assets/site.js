@@ -106,16 +106,107 @@
     d_t:"Vous préférez parler directement ?", d_d:"Appelez, textez ou écrivez. C'est moi qui vous réponds, pas une assistante.",
     d_phone:"Téléphone ou texto", d_email:"Courriel", d_where:"Où",
 
+    t_privacy:"Politique de confidentialité — Karen Cutler",
+    cta_call:"Appel gratuit", cta_call_long:"Réserver un appel gratuit",
+    cred_years:"ans", cred_years_s:"de coaching à Montréal", cred_cert:"Entraîneuse certifiée", cred_meno:"Coaching ménopause",
+    cred_lang:"FR · EN", cred_lang_s:"Coaching dans les deux langues",
+    sig_k:"Programme vedette", sig_t:"Forte en 12 semaines",
+    sig_d:"Un programme en trois phases qui vous mène de votre première séance à soulever avec confiance. Chaque phase s'appuie sur la précédente, et on ajuste en chemin.",
+    sig_cta:"Voir le programme complet",
+    sig_l1:"Évaluation de départ et bilan à la semaine 12", sig_l2:"séances coachées par semaine", sig_l3:"Exercices à la maison entre les séances", sig_l4:"Habitudes de nutrition et de récupération intégrées",
+    ph1_w:"Semaines 1–4", ph1_t:"Fondation", ph1_d:"Apprendre les mouvements clés, trouver votre point de départ et bâtir l'habitude.",
+    ph2_w:"Semaines 5–8", ph2_t:"Construction", ph2_d:"Ajouter de la charge et de la variété. La force se fait sentir au quotidien.",
+    ph3_w:"Semaines 9–12", ph3_t:"Forte", ph3_d:"Mesurer vos progrès et repartir avec un plan à suivre par vous-même.",
+    step1_t:"Envoyez une demande", step1_d:"Répondez à quelques questions sur vos objectifs et votre horaire. Ça prend environ deux minutes.",
+    step2_t:"Appel découverte gratuit", step2_d:"Un appel de 20 minutes pour parler de ce que vous voulez, de ce qui vous a freinée et voir si on fait une bonne équipe.",
+    rev_title:"Ce qu'en disent les clientes", rev_lede:"Les vrais mots de gens qui s'entraînent avec Karen.",
+    rv1:"J'arrivais nerveuse et je repartais de chaque séance le sourire aux lèvres, plus forte que je le croyais.",
+    rv2:"Mon mal de dos a disparu et j'aime enfin m'entraîner. Karen adapte chaque séance à mon état du jour.",
+    rv3:"En pleine ménopause, je me sentais faible et fatiguée. Six mois plus tard, je soulève plus que jamais et je dors mieux.",
+    rv_since:"s'entraîne depuis 20__",
+    where_title:"Où on s'entraîne", where_lede:"Choisissez ce qui convient à votre vie. Vous pouvez aussi combiner.",
+    wh1_t:"Au studio", wh1_d:"Un espace entièrement équipé à", wh2_t:"Chez vous", wh2_d:"J'apporte l'équipement. Disponible à",
+    wh3_t:"En ligne", wh3_d:"Séances en direct par vidéo ou programme sur mesure sur votre téléphone, où que vous soyez.",
+    fact_lang:"Français et anglais", fact_reply:"Réponse d'ici 1 à 2 jours",
+    ig_title:"Dans les coulisses", ig_lede:"Suivez-moi sur Instagram",
+    ps1:"Karen qui coache une cliente", ps2:"Gros plan d'un exercice de force", ps3:"Mobilité ou étirements", ps4:"Karen souriante, en action",
+    band_t:"Commencez par un appel gratuit de 20 minutes", band_d:"Sans engagement. Dites-moi où vous en êtes et on verra si s'entraîner ensemble vous convient.",
+    pr_title:"Tarifs", pr_lede:"Des prix clairs, sans long contrat. Votre appel découverte est toujours gratuit.",
+    pr1_t:"Séance à l'unité", pr1_s:"1:1, en personne ou en ligne", pr1_per:"par séance de 60 minutes", pr1_l1:"Séance entièrement personnalisée", pr1_l2:"Réservez quand ça vous convient",
+    pr_pop:"Le plus complet", pr2_t:"Programme 12 semaines", pr2_s:"Le programme vedette", pr2_per:"pour 12 semaines, ou 3 versements mensuels",
+    pr2_l1:"Séances coachées chaque semaine", pr2_l2:"Évaluation et bilan des progrès", pr2_l3:"Plan maison et coaching d'habitudes",
+    pr3_t:"Coaching en ligne", pr3_s:"Votre programme sur mesure, partout", pr3_per:"par mois", pr3_l1:"Programme sur votre téléphone avec démos vidéo", pr3_l2:"Suivi et ajustements chaque semaine",
+    pr_cta:"Commencer par un appel gratuit",
+    q6:"Que dois-je apporter à ma première séance ?", a6:"Des vêtements confortables, des espadrilles et une bouteille d'eau. Je m'occupe du reste.",
+    q7:"Et si je dois annuler ?", a7:"Annulez ou déplacez au moins 24 heures à l'avance sans frais. Une annulation tardive compte comme une séance.",
+    a5:"Envoyez une demande depuis la page contact. Ça prend deux minutes, et je vous réponds personnellement pour planifier votre appel découverte gratuit.",
+    chk_t:"Est-ce que ça vous ressemble ?", chk_d:"Cochez ce que vous avez remarqué dernièrement. Il n'y a pas de score, juste un point de départ pour notre discussion.",
+    c1:"Sommeil difficile ou interrompu", c2:"Peu d'énergie pendant la journée", c3:"Articulations raides ou douloureuses", c4:"Du poids qui se déplace au ventre",
+    c5:"Je me sens plus faible qu'avant", c6:"Brouillard mental", c7:"Bouffées de chaleur qui nuisent", c8:"Moins confiante dans mon corps",
+    chk_res:"Vous êtes loin d'être seule. Ces changements sont fréquents, et le bon entraînement peut aider pour plusieurs d'entre eux. Parlons des vôtres.",
+    chk_cta:"En parler lors d'un appel gratuit",
+    gd_cover:"5 mouvements de force après 40 ans", gd_t:"Guide gratuit : 5 mouvements de force après 40 ans",
+    gd_d:"Cinq exercices simples à faire à la maison pour protéger vos os, vos articulations et votre énergie, avec photos et consignes claires.",
+    gd_ph:"Votre courriel", gd_btn:"Recevoir le guide",
+    st_t:"Mon histoire",
+    st_p1:"Comment Karen est-elle arrivée au sport ? Quel moment lui a donné envie de coacher ? A-t-elle vécu ses propres changements, une blessure ou un retour qui influence sa façon d'entraîner aujourd'hui ?",
+    st_p2:"Deux ou trois courts paragraphes ici, avec ses mots. Les entraîneurs qui partagent leur histoire gagnent la confiance beaucoup plus vite qu'avec une liste de services.",
+    ce_t:"Formation et certifications", ce_org:"organisme, année", ce_meno:"Formation ménopause ou santé des femmes", ce_fa:"Premiers soins et RCR", ce_valid:"valide jusqu'en 20__",
+    ga1:"Karen dans son espace d'entraînement", ga2:"Karen qui démontre un mouvement", ga3:"Karen qui célèbre avec une cliente",
+    ct_l1:"Votre appel", ct_l2:"gratuit.",
+    ct_lede:"Répondez à quelques questions pour que je puisse préparer notre appel. Ça prend environ deux minutes, et je réponds personnellement d'ici 1 à 2 jours.",
+    s1_title:"Vos objectifs", s2_title:"Votre profil", s3_title:"Votre entraînement", s4_title:"Vos coordonnées", s5_title:"Vérification",
+    s1_h:"Sur quoi voulez-vous travailler ?", s1_p:"Choisissez tout ce qui compte pour vous.",
+    go1:"Devenir plus forte", go2:"Bouger sans douleur", go3:"Changer ma composition corporelle", go4:"Avoir plus d'énergie", go5:"M'entraîner pendant la ménopause", go6:"Bâtir une routine durable",
+    s2_h:"Dites-moi où vous en êtes", s2_p:"Il n'y a pas de mauvaise réponse. Ça m'aide simplement à planifier votre première séance.",
+    s2_q1:"Votre expérience en entraînement", ex1:"Débutante", ex1_s:"Peu ou pas d'entraînement", ex2:"Un peu d'expérience", ex2_s:"Par périodes, ou un retour", ex3:"Je m'entraîne régulièrement", ex3_s:"Prête pour la suite",
+    s2_q2:"Étape de vie, si ça s'applique", opt:"(optionnel)", pick:"(choix multiples)",
+    st1:"Périménopause", st2:"Ménopause", st3:"Postménopause", st4:"Ne s'applique pas", st5:"Je préfère ne pas répondre",
+    s2_q3:"Blessures ou conditions de santé à connaître", s2_ph:"Par exemple : ancienne blessure au genou, douleur au bas du dos…",
+    s3_h:"Comment aimeriez-vous vous entraîner ?", s3_p:"On peut toujours ajuster ça ensemble lors de l'appel.",
+    s3_q1:"Où", fm1:"Au studio", fm2:"Chez moi", fm3:"En ligne",
+    s3_q2:"Quelle option vous intéresse ?", pg1:"Séances à l'unité", pg2:"Programme 12 semaines", pg3:"Coaching en ligne", pg4:"Je ne sais pas encore",
+    s3_q3:"Combien de fois par semaine ?", fq1:"Une fois", fq2:"Deux fois", fq3:"3 fois ou plus",
+    s3_q4:"Vos meilleurs moments",
+    s4_h:"Comment vous joindre ?", s4_p:"Je m'en sers seulement pour vous répondre au sujet de votre entraînement.",
+    f_pref:"Meilleure façon de vous joindre", cb1:"Courriel", cb2:"Appel", cb3:"Texto",
+    f_msg2:"Autre chose que je devrais savoir ?",
+    consent:'J\'accepte que Karen Cutler recueille ces renseignements pour répondre à ma demande et planifier mon entraînement, comme décrit dans la <a href="privacy.html" target="_blank" rel="noopener">politique de confidentialité</a>.',
+    s5_h:"Prête à envoyer ?", s5_p:"Vérifiez vos réponses. Vous pouvez modifier chacune d'elles.",
+    back:"Retour", next:"Continuer", send:"Envoyer ma demande",
+    done_t:"Demande envoyée", done_d:"Merci ! Une copie de vos réponses s'en vient dans votre boîte courriel.",
+    done_1:"Karen lit vos réponses et prépare votre appel.", done_2:"Elle vous contacte d'ici 1 à 2 jours pour choisir un moment.", done_3:"Votre appel découverte gratuit de 20 minutes, puis votre première séance.",
+    done_cta:"Explorer les programmes",
+    foot_privacy:"Politique de confidentialité", foot_disclaimer:"Avis santé",
+    pv_l1:"Politique de", pv_l2:"confidentialité.", pv_upd:"Dernière mise à jour :",
+    pv_intro:"Cette politique explique comment Karen Cutler recueille, utilise et protège vos renseignements personnels, conformément à la Loi sur la protection des renseignements personnels dans le secteur privé du Québec (Loi 25).",
+    pv_h1:"Qui est responsable", pv_p1:"Karen Cutler est responsable de la protection de vos renseignements personnels. Pour toute question ou demande, écrivez à cutlerkarenann@gmail.com ou appelez au 514-606-1256.",
+    pv_h2:"Ce que nous recueillons", pv_p2:"Lorsque vous envoyez une demande par ce site : votre nom, votre courriel, votre numéro de téléphone si vous le donnez, vos objectifs et préférences d'entraînement, et toute information de santé que vous choisissez de partager, comme une blessure ou votre étape de vie.",
+    pv_h3:"Pourquoi nous les recueillons", pv_p3:"Uniquement pour répondre à votre demande, planifier votre entraînement de façon sécuritaire et rester en contact au sujet de vos séances. Vos renseignements ne sont jamais vendus ni partagés à des fins de marketing.",
+    pv_h4:"Où ils sont conservés", pv_p4:"Les demandes sont transmises au courriel de Karen par le service FormSubmit et peuvent être conservées dans une feuille Google privée. Ces fournisseurs peuvent stocker des données à l'extérieur du Québec.",
+    pv_h5:"Combien de temps nous les gardons", pv_p5:"Les demandes qui ne mènent pas à un entraînement sont supprimées après 12 mois. Les renseignements des clientes sont conservés pendant l'entraînement, puis supprimés sur demande.",
+    pv_h6:"Vos droits", pv_p6:"Vous pouvez demander à consulter, corriger ou supprimer vos renseignements, ou retirer votre consentement, en tout temps en contactant Karen.",
+    pv_h7:"Avis santé", pv_p7:"L'information sur ce site est générale et ne remplace pas un avis médical. Consultez votre médecin avant de commencer un nouveau programme d'exercice, surtout si vous avez une condition de santé, une blessure ou suivez un traitement lié à la ménopause.",
     foot_about:"Entraînement privé à Montréal pour tous les niveaux et toutes les étapes de la vie. Le sourire en prime.",
     foot_pages:"Pages", foot_contact:"Contact", foot_rights:"Tous droits réservés.", foot_tag:"Le sourire en prime"
   };
   const MSG = {
     en:{sending:"Sending…", required:"Add your name and a valid email so Karen can reach you.",
         fail:'The form couldn\'t send. Email <a href="mailto:cutlerkarenann@gmail.com">cutlerkarenann@gmail.com</a> or call 514-606-1256.',
-        langBtn:"FR", langLabel:"Passer en français"},
+        langBtn:"FR", langLabel:"Passer en français", step:(a,b)=>`Step ${a} of ${b}`, edit:"Edit",
+        needGoal:"Pick at least one goal.", needExp:"Choose your experience level.", needFormat:"Choose at least one place to train.",
+        needName:"Add your name.", needEmail:"Add a valid email.", needConsent:"Please accept the privacy terms so Karen can use your answers.",
+        sum:{goals:"Goals",experience:"Experience",stage:"Life stage",health:"Health notes",noticed:"Noticed lately",format:"Where",program:"Option",frequency:"Per week",times:"Best times",name:"Name",email:"Email",phone:"Phone",contact_by:"Reach me by",message:"Message"},
+        none:"—", guideOk:"Thanks! Karen will email you the guide.", guideErr:"Add a valid email.",
+        auto:"Thank you for your request! I read every message personally and will get back to you within 1–2 days to set up your free intro call. — Karen Cutler, 514-606-1256"},
     fr:{sending:"Envoi…", required:"Ajoutez votre nom et un courriel valide pour que Karen puisse vous joindre.",
         fail:'Le formulaire n\'a pas pu être envoyé. Écrivez à <a href="mailto:cutlerkarenann@gmail.com">cutlerkarenann@gmail.com</a> ou appelez au 514-606-1256.',
-        langBtn:"EN", langLabel:"Switch to English"}
+        langBtn:"EN", langLabel:"Switch to English", step:(a,b)=>`Étape ${a} de ${b}`, edit:"Modifier",
+        needGoal:"Choisissez au moins un objectif.", needExp:"Choisissez votre niveau d'expérience.", needFormat:"Choisissez au moins un endroit où vous entraîner.",
+        needName:"Ajoutez votre nom.", needEmail:"Ajoutez un courriel valide.", needConsent:"Veuillez accepter les conditions de confidentialité pour que Karen puisse utiliser vos réponses.",
+        sum:{goals:"Objectifs",experience:"Expérience",stage:"Étape de vie",health:"Santé",noticed:"Remarqué récemment",format:"Où",program:"Option",frequency:"Par semaine",times:"Moments",name:"Nom",email:"Courriel",phone:"Téléphone",contact_by:"Me joindre par",message:"Message"},
+        none:"—", guideOk:"Merci ! Karen vous enverra le guide par courriel.", guideErr:"Ajoutez un courriel valide.",
+        auto:"Merci pour votre demande ! Je lis chaque message personnellement et je vous réponds d'ici 1 à 2 jours pour planifier votre appel découverte gratuit. — Karen Cutler, 514-606-1256"}
   };
 
   let lang = 'en';
@@ -139,6 +230,7 @@
     });
     try { localStorage.setItem('kc_lang', next); } catch(e){}
     root.classList.remove('fr-pending');
+    document.dispatchEvent(new CustomEvent('kc:lang'));
   }
 
   /* ================= boot ================= */
@@ -157,7 +249,10 @@
     setupMagnetic();
     setupFaq();
     setupTabs();
-    setupForm();
+    setupConcept();
+    setupChecklist();
+    setupGuide();
+    setupWizard();
 
     requestAnimationFrame(() => requestAnimationFrame(() => root.classList.add('is-loaded')));
   }
@@ -369,6 +464,212 @@
       } finally { btn.disabled = false; }
     });
     form.querySelectorAll('input').forEach(i => i.addEventListener('input', () => i.closest('.field')?.classList.remove('invalid')));
+  }
+
+
+  /* ================= delivery config ================= */
+  const FORM_ENDPOINT = 'https://formsubmit.co/ajax/cutlerkarenann@gmail.com';
+  // Optional: paste the Google Apps Script web-app URL here to also log every request in a Google Sheet.
+  const SHEET_URL = '';
+  const emailOk = v => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+
+  /* ================= concept notes toggle ================= */
+  function setupConcept(){
+    try { if (localStorage.getItem('kc_clean') === '1') root.classList.add('clean'); } catch(e){}
+    document.querySelectorAll('[data-clean]').forEach(b => b.addEventListener('click', () => {
+      const on = root.classList.toggle('clean');
+      try { localStorage.setItem('kc_clean', on ? '1' : '0'); } catch(e){}
+    }));
+  }
+
+  /* ================= "is this you?" checklist ================= */
+  function setupChecklist(){
+    const box = document.querySelector('[data-checklist]');
+    if (!box) return;
+    const res = document.querySelector('.check-result'), count = res.querySelector('[data-count]'), cta = res.querySelector('[data-check-cta]');
+    box.addEventListener('change', () => {
+      const vals = [...box.querySelectorAll('input:checked')].map(i => i.value);
+      res.classList.toggle('show', vals.length > 0);
+      count.textContent = vals.length;
+      cta.href = 'contact.html?noticed=' + encodeURIComponent(vals.join(','));
+    });
+  }
+
+  /* ================= free guide form ================= */
+  function setupGuide(){
+    const f = document.querySelector('[data-guide]');
+    if (!f) return;
+    const msg = f.parentElement.querySelector('.guide-msg');
+    f.addEventListener('submit', async e => {
+      e.preventDefault();
+      const email = f.email.value.trim();
+      if (!emailOk(email)){ msg.className = 'guide-msg form-status err'; msg.textContent = MSG[lang].guideErr; return; }
+      const btn = f.querySelector('button'); btn.disabled = true;
+      try {
+        const d = new FormData();
+        d.append('email', email); d.append('Request', 'Free guide: 5 strength moves for midlife');
+        d.append('_subject', 'Free guide request from your website'); d.append('_captcha','false'); d.append('_template','table');
+        await fetch(FORM_ENDPOINT, {method:'POST', headers:{Accept:'application/json'}, body:d});
+        msg.className = 'guide-msg form-status ok'; msg.textContent = MSG[lang].guideOk; f.reset();
+      } catch(err){ msg.className = 'guide-msg form-status err'; msg.innerHTML = MSG[lang].fail; }
+      finally { btn.disabled = false; }
+    });
+  }
+
+  /* ================= multi-step intake ================= */
+  function setupWizard(){
+    const form = document.getElementById('intake');
+    if (!form) return;
+    const steps = [...form.querySelectorAll('.wiz-step')];
+    const bars = [...form.querySelectorAll('.wiz-bar i')];
+    const title = form.querySelector('[data-step-title]'), countEl = form.querySelector('[data-step-count]');
+    const err = form.querySelector('.wiz-err');
+    const btnBack = form.querySelector('[data-back]'), btnNext = form.querySelector('[data-next]'), btnSend = form.querySelector('[data-send]');
+    const F = n => form.elements[n];
+    const DRAFT = 'kc_intake';
+    let cur = 0;
+
+    const checked = n => [...form.querySelectorAll(`input[name="${n}"]:checked`)];
+    const labelOf = i => i.closest('label').querySelector('span [data-i18n], span[data-i18n]')?.textContent.trim() || i.value;
+
+    // prefill from URL (pricing cards, menopause checklist)
+    const qs = new URLSearchParams(location.search);
+    const progMap = {single:'Single sessions','12week':'12-week program',online:'Online coaching'};
+    if (progMap[qs.get('program')]) { const r = form.querySelector(`input[name="program"][value="${progMap[qs.get('program')]}"]`); if (r) r.checked = true; }
+    if (qs.get('noticed')) {
+      F('noticed').value = qs.get('noticed');
+      const g = form.querySelector('input[name="goals"][value="Train through menopause"]'); if (g) g.checked = true;
+    }
+
+    // restore draft
+    try {
+      const d = JSON.parse(sessionStorage.getItem(DRAFT) || 'null');
+      if (d) Object.entries(d).forEach(([n, v]) => {
+        const els = form.querySelectorAll(`[name="${n}"]`);
+        els.forEach(el => {
+          if (el.type === 'checkbox' || el.type === 'radio') el.checked = [].concat(v).includes(el.value);
+          else if (el.type !== 'hidden' || !el.value) el.value = v;
+        });
+      });
+    } catch(e){}
+    const save = () => {
+      const o = {};
+      [...form.elements].forEach(el => {
+        if (!el.name || el.name.startsWith('_')) return;
+        if (el.type === 'checkbox' || el.type === 'radio'){ if (el.checked) o[el.name] = el.type === 'radio' ? el.value : [...(o[el.name] || []), el.value]; }
+        else o[el.name] = el.value;
+      });
+      try { sessionStorage.setItem(DRAFT, JSON.stringify(o)); } catch(e){}
+    };
+    form.addEventListener('input', () => { save(); err.textContent = ''; });
+    form.addEventListener('change', save);
+
+    function render(dir){
+      steps.forEach((s, i) => { s.classList.toggle('active', i === cur); s.classList.toggle('back', dir < 0); });
+      bars.forEach((b, i) => b.classList.toggle('done', i <= cur));
+      const key = steps[cur].dataset.title;
+      title.textContent = lang === 'fr' && FR[key] ? FR[key] : (document.querySelector(`legend[data-i18n="${key}"]`)?.dataset.en || {s1_title:'Your goals',s2_title:'About you',s3_title:'Your training',s4_title:'Your details',s5_title:'Review'}[key]);
+      countEl.textContent = MSG[lang].step(cur + 1, steps.length);
+      btnBack.hidden = cur === 0;
+      const last = cur === steps.length - 1;
+      btnNext.hidden = last; btnSend.hidden = !last;
+      err.textContent = '';
+      if (last) buildSummary();
+    }
+    document.addEventListener('kc:lang', () => render(0));
+
+    function validate(i){
+      const m = MSG[lang];
+      if (i === 0 && !checked('goals').length) return m.needGoal;
+      if (i === 1 && !checked('experience').length) return m.needExp;
+      if (i === 2 && !checked('format').length) return m.needFormat;
+      if (i === 3){
+        F('name').closest('.field').classList.toggle('invalid', !F('name').value.trim());
+        F('email').closest('.field').classList.toggle('invalid', !emailOk(F('email').value.trim()));
+        if (!F('name').value.trim()) { F('name').focus(); return m.needName; }
+        if (!emailOk(F('email').value.trim())) { F('email').focus(); return m.needEmail; }
+        if (!F('consent').checked) return m.needConsent;
+      }
+      return '';
+    }
+
+    function go(to){
+      const dir = to > cur ? 1 : -1;
+      if (dir > 0) for (let i = cur; i < to; i++){ const e = validate(i); if (e){ cur = i; render(0); err.textContent = e; return; } }
+      cur = to; render(dir);
+      const top = form.getBoundingClientRect().top + scrollY - 100;
+      if (Math.abs(scrollY - top) > 200) scrollTo({top, behavior: reduce ? 'auto' : 'smooth'});
+      steps[cur].querySelector('h2').setAttribute('tabindex','-1'); steps[cur].querySelector('h2').focus({preventScroll:true});
+    }
+    btnNext.addEventListener('click', () => go(cur + 1));
+    btnBack.addEventListener('click', () => go(cur - 1));
+    form.addEventListener('keydown', e => {
+      if (e.key === 'Enter' && e.target.tagName === 'INPUT' && e.target.type !== 'checkbox' && e.target.type !== 'radio' && cur < steps.length - 1){ e.preventDefault(); go(cur + 1); }
+    });
+
+    const NOTICED = {
+      en:{sleep:'Poor sleep',energy:'Low energy',joints:'Achy joints',weight:'Weight to the middle',strength:'Feeling weaker',fog:'Brain fog',hot:'Hot flashes',confidence:'Less confident'},
+      fr:{sleep:'Sommeil difficile',energy:'Peu d\'énergie',joints:'Articulations raides',weight:'Poids au ventre',strength:'Plus faible',fog:'Brouillard mental',hot:'Bouffées de chaleur',confidence:'Moins confiante'}
+    };
+    const noticedText = l => F('noticed').value.split(',').filter(Boolean).map(k => NOTICED[l][k] || k).join(', ');
+    const FIELDS = [['goals',0],['experience',1],['stage',1],['health',1],['noticed',1],['format',2],['program',2],['frequency',2],['times',2],['name',3],['email',3],['phone',3],['contact_by',3],['message',3]];
+    function valueOf(n, human){
+      const el = F(n);
+      if (el && (el.type === 'text' || el.type === 'email' || el.type === 'tel' || el.tagName === 'TEXTAREA' || el.type === 'hidden')) return el.value.trim();
+      const c = checked(n); return c.map(i => human ? labelOf(i) : i.value).join(', ');
+    }
+    function buildSummary(){
+      const dl = form.querySelector('[data-summary]'); dl.innerHTML = '';
+      FIELDS.forEach(([n, step]) => {
+        let v = valueOf(n, true);
+        if (n === 'noticed') v = noticedText(lang);
+        if (!v && ['stage','health','noticed','phone','message','times'].includes(n)) return;
+        const row = document.createElement('div'); row.className = 'sum-row';
+        row.innerHTML = `<dt></dt><dd></dd><button type="button"></button>`;
+        row.querySelector('dt').textContent = MSG[lang].sum[n];
+        row.querySelector('dd').textContent = v || MSG[lang].none;
+        const b = row.querySelector('button'); b.textContent = MSG[lang].edit; b.addEventListener('click', () => go(step));
+        dl.appendChild(row);
+      });
+    }
+
+    form.addEventListener('submit', async e => {
+      e.preventDefault();
+      if (cur !== steps.length - 1) return go(cur + 1);
+      if (F('_honey').value) return;
+      for (let i = 0; i < steps.length - 1; i++){ const m = validate(i); if (m){ cur = i; render(0); err.textContent = m; return; } }
+
+      const name = F('name').value.trim();
+      const payload = {
+        'Name': name, 'Email': F('email').value.trim(), 'Phone': valueOf('phone') || '—', 'Reach me by': valueOf('contact_by'),
+        'Goals': valueOf('goals'), 'Experience': valueOf('experience'), 'Life stage': valueOf('stage') || '—',
+        'Health notes': valueOf('health') || '—', 'Noticed lately': noticedText('en') || '—',
+        'Where': valueOf('format'), 'Option': valueOf('program'), 'Per week': valueOf('frequency'), 'Best times': valueOf('times') || '—',
+        'Message': valueOf('message') || '—', 'Language': lang === 'fr' ? 'Français' : 'English', 'Privacy consent': 'Yes', 'Sent from': location.href.split('?')[0]
+      };
+      btnSend.disabled = true; err.style.color = 'var(--muted)'; err.textContent = MSG[lang].sending;
+      try {
+        const d = new FormData();
+        Object.entries(payload).forEach(([k, v]) => d.append(k, v));
+        d.append('email', payload.Email);
+        d.append('_subject', `New intro call request: ${name}`);
+        d.append('_template', 'table'); d.append('_captcha', 'false');
+        d.append('_autoresponse', MSG[lang].auto);
+        const res = await fetch(FORM_ENDPOINT, {method:'POST', headers:{Accept:'application/json'}, body:d});
+        if (!res.ok) throw new Error(res.status);
+        if (SHEET_URL) fetch(SHEET_URL, {method:'POST', mode:'no-cors', headers:{'Content-Type':'text/plain'}, body:JSON.stringify({...payload, date:new Date().toISOString()})}).catch(() => {});
+        try { sessionStorage.removeItem(DRAFT); } catch(e){}
+        form.classList.add('sent');
+        const done = form.querySelector('.wiz-done');
+        done.querySelectorAll('svg.draw').forEach(s => { s.classList.remove('in'); void s.offsetWidth; s.classList.add('in'); });
+        done.focus();
+        form.scrollIntoView({behavior: reduce ? 'auto' : 'smooth', block:'start'});
+      } catch(ex){
+        err.style.color = ''; err.innerHTML = MSG[lang].fail;
+      } finally { btnSend.disabled = false; }
+    });
+
+    render(0);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();

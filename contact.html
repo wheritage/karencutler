@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title data-i18n="t_contact">Contact — Karen Cutler, Personal Trainer in Montréal</title>
-<meta name="description" content="Contact Karen Cutler to start personal training in Montréal. Send your goals and she'll reply personally.">
-<meta property="og:title" content="Contact — Karen Cutler, Personal Trainer in Montréal">
-<meta property="og:description" content="Contact Karen Cutler to start personal training in Montréal. Send your goals and she'll reply personally.">
+<title data-i18n="t_contact">Book a Free Intro Call — Karen Cutler, Personal Trainer in Montréal</title>
+<meta name="description" content="Send Karen Cutler a training request in two minutes and book a free 20-minute intro call. Personal training in Montréal, in person or online.">
+<meta property="og:title" content="Book a Free Intro Call — Karen Cutler, Personal Trainer in Montréal">
+<meta property="og:description" content="Send Karen Cutler a training request in two minutes and book a free 20-minute intro call. Personal training in Montréal, in person or online.">
 <meta property="og:image" content="images/og.jpg">
 <meta name="theme-color" content="#050912">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
@@ -31,7 +31,7 @@
 <li><a href="contact.html" aria-current="page" data-i18n="nav_contact">Contact</a></li></ul></nav>
     <div class="nav-tools">
       <button class="lang" type="button" data-lang-toggle aria-label="Passer en français">FR</button>
-      <a class="btn btn--primary nav-cta" href="contact.html" data-i18n="cta_start">Start training</a>
+      <a class="btn btn--primary nav-cta" href="contact.html" data-i18n="cta_call">Free intro call</a>
       <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span></button>
     </div>
   </div>
@@ -41,7 +41,7 @@
 <a class="m-link" href="programs.html"><span data-i18n="nav_programs">Programs</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 <a class="m-link" href="menopause.html"><span data-i18n="nav_menopause">Menopause</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 <a class="m-link" href="about.html"><span data-i18n="nav_about">About</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-  <a class="btn btn--primary" href="contact.html"><span data-i18n="cta_start">Start training</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+  <a class="btn btn--primary" href="contact.html"><span data-i18n="cta_call">Free intro call</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </div>
 
 <main id="main">
@@ -65,72 +65,175 @@
 </svg></div>
     <div class="wrap">
       <h1 class="display">
-        <span class="line"><span data-i18n="ct_l1">Let's get</span></span>
-        <span class="line"><span class="outline" data-i18n="ct_l2">started.</span></span>
+        <span class="line"><span data-i18n="ct_l1">Your free</span></span>
+        <span class="line"><span class="outline" data-i18n="ct_l2">intro call.</span></span>
       </h1>
-      <p class="lede hero-fade d1" data-i18n="ct_lede">Tell me a little about you. I read every message and reply personally, usually within a day or two.</p>
+      <p class="lede hero-fade d1" data-i18n="ct_lede">Answer a few quick questions so I can prepare for our call. It takes about two minutes, and I reply personally within 1–2 days.</p>
     </div>
   </section>
 
   <section class="section" style="padding-top:clamp(40px,6vw,72px)">
     <div class="wrap contact-grid">
-      <form class="form reveal" id="lead-form" novalidate>
-        <input type="hidden" name="_subject" value="New training request from your website">
-        <input type="hidden" name="_template" value="table">
+
+      <form class="wiz reveal" id="intake" novalidate>
         <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off" aria-hidden="true">
 
-        <div class="row-2">
-          <div class="field">
-            <label for="f-name" data-i18n="f_name">Your name</label>
-            <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="Jane Doe" data-i18n-ph="f_name_ph">
-          </div>
-          <div class="field">
-            <label for="f-email" data-i18n="f_email">Email</label>
-            <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="you@email.com" data-i18n-ph="f_email_ph">
-          </div>
-        </div>
-        <div class="field">
-          <label for="f-phone"><span data-i18n="f_phone">Phone</span> <span class="hint" data-i18n="f_opt">(optional)</span></label>
-          <input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="514 000-0000">
+        <div class="wiz-top">
+          <div class="wiz-count"><b data-step-title>Your goals</b><span data-step-count>Step 1 of 5</span></div>
+          <div class="wiz-bar" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
         </div>
 
-        <fieldset class="field" style="border:none">
-          <legend class="label" data-i18n="f_goals" style="margin-bottom:8px">What are you looking for? <span class="hint">(pick any)</span></legend>
-          <div class="pills" data-group="interest">
-            <label class="pill-opt"><input type="checkbox" value="1-on-1 training"><span data-i18n="g1">1-on-1 training</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Online program"><span data-i18n="g2">Online program</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Strength and mobility"><span data-i18n="g3">Strength and mobility</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Menopause training"><span data-i18n="g4">Menopause training</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Nutrition and habits"><span data-i18n="g5">Nutrition and habits</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Not sure yet"><span data-i18n="g6">Not sure yet</span></label>
-          </div>
-        </fieldset>
+        <div class="wiz-body">
+          <!-- STEP 1 · goals -->
+          <section class="wiz-step active" data-title="s1_title" aria-labelledby="h-s1">
+            <h2 id="h-s1" data-i18n="s1_h">What do you want to work on?</h2>
+            <p class="muted" data-i18n="s1_p">Pick everything that matters to you.</p>
+            <fieldset class="q" data-required="goals">
+              <legend class="label" style="position:absolute;left:-999px" data-i18n="s1_title">Your goals</legend>
+              <div class="cards">
+                <label class="card-opt"><input type="checkbox" name="goals" value="Get stronger"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 6.5v11M3.5 9v6M17.5 6.5v11M20.5 9v6M6.5 12h11"/></svg><span data-i18n="go1">Get stronger</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="goals" value="Move without pain"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17c3.5 0 3.5-10 7-10s3.5 10 7 10 3.5-5 4-5"/></svg><span data-i18n="go2">Move without pain</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="goals" value="Body composition"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16M5 20h14M6 8h12"/><path d="M6 8 3 14a3 3 0 0 0 6 0zM18 8l-3 6a3 3 0 0 0 6 0z"/></svg><span data-i18n="go3">Change my body composition</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="goals" value="More energy"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="13 2.5 4.5 14 12 14 11 21.5 19.5 10 12 10 13 2.5"/></svg><span data-i18n="go4">Have more energy</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="goals" value="Train through menopause"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.5 2.6C19.5 15.4 12 20 12 20z"/></svg><span data-i18n="go5">Train through menopause</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="goals" value="Build a routine"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg><span data-i18n="go6">Build a routine I keep</span></span></label>
+              </div>
+            </fieldset>
+          </section>
 
-        <fieldset class="field" style="border:none">
-          <legend class="label" data-i18n="f_when" style="margin-bottom:8px">When do you prefer to train? <span class="hint">(pick any)</span></legend>
-          <div class="pills" data-group="availability">
-            <label class="pill-opt"><input type="checkbox" value="Mornings"><span data-i18n="w1">Mornings</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Afternoons"><span data-i18n="w2">Afternoons</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Evenings"><span data-i18n="w3">Evenings</span></label>
-            <label class="pill-opt"><input type="checkbox" value="Weekends"><span data-i18n="w4">Weekends</span></label>
-          </div>
-        </fieldset>
-        <input type="hidden" name="interest">
-        <input type="hidden" name="availability">
-        <input type="hidden" name="language">
+          <!-- STEP 2 · about you -->
+          <section class="wiz-step" data-title="s2_title" aria-labelledby="h-s2">
+            <h2 id="h-s2" data-i18n="s2_h">Tell me where you're at</h2>
+            <p class="muted" data-i18n="s2_p">There are no wrong answers. This just helps me plan your first session.</p>
+            <fieldset class="q" data-required="experience">
+              <legend data-i18n="s2_q1">Your experience with training</legend>
+              <div class="cards">
+                <label class="card-opt"><input type="radio" name="experience" value="New to training"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21v-9"/><path d="M12 12C12 8 9 6 5 6c0 4 3 6 7 6z"/><path d="M12 10.5c0-3 2.5-5 6-5 0 3-2.5 5-6 5z"/></svg><span data-i18n="ex1">New to it</span><small data-i18n="ex1_s">Little or no training</small></span></label>
+                <label class="card-opt"><input type="radio" name="experience" value="Some experience"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.4-5.7"/><polyline points="20 4 20 8.5 15.5 8.5"/></svg><span data-i18n="ex2">Some experience</span><small data-i18n="ex2_s">On and off, or getting back</small></span></label>
+                <label class="card-opt"><input type="radio" name="experience" value="Trains regularly"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21.5c3.9 0 7-2.8 7-6.8 0-5-5-7-5-11.7-3 1.8-5 4.9-5 7.8-1.2-.8-2-2-2.2-3.6C5 9 5 11.6 5 14.7c0 4 3.1 6.8 7 6.8z"/></svg><span data-i18n="ex3">I train regularly</span><small data-i18n="ex3_s">Ready for the next level</small></span></label>
+              </div>
+            </fieldset>
+            <fieldset class="q">
+              <legend><span data-i18n="s2_q2">Life stage, if it applies</span> <span class="hint" data-i18n="opt">(optional)</span></legend>
+              <div class="seg pills">
+                <label class="pill-opt"><input type="radio" name="stage" value="Perimenopause"><span data-i18n="st1">Perimenopause</span></label>
+                <label class="pill-opt"><input type="radio" name="stage" value="Menopause"><span data-i18n="st2">Menopause</span></label>
+                <label class="pill-opt"><input type="radio" name="stage" value="Post-menopause"><span data-i18n="st3">Post-menopause</span></label>
+                <label class="pill-opt"><input type="radio" name="stage" value="Not applicable"><span data-i18n="st4">Doesn't apply</span></label>
+                <label class="pill-opt"><input type="radio" name="stage" value="Prefer not to say"><span data-i18n="st5">Prefer not to say</span></label>
+              </div>
+            </fieldset>
+            <div class="field q">
+              <label for="i-inj"><span data-i18n="s2_q3">Injuries or health conditions I should know about</span> <span class="hint" data-i18n="opt">(optional)</span></label>
+              <textarea id="i-inj" name="health" rows="3" placeholder="For example: old knee injury, lower back pain…" data-i18n-ph="s2_ph"></textarea>
+            </div>
+            <input type="hidden" name="noticed">
+          </section>
 
-        <div class="field">
-          <label for="f-msg"><span data-i18n="f_msg">Your goals</span> <span class="hint" data-i18n="f_opt">(optional)</span></label>
-          <textarea id="f-msg" name="message" rows="4" placeholder="What would you like to feel or be able to do in 3 months?" data-i18n-ph="f_msg_ph"></textarea>
+          <!-- STEP 3 · training -->
+          <section class="wiz-step" data-title="s3_title" aria-labelledby="h-s3">
+            <h2 id="h-s3" data-i18n="s3_h">How would you like to train?</h2>
+            <p class="muted" data-i18n="s3_p">We can always adjust this together on the call.</p>
+            <fieldset class="q" data-required="format">
+              <legend><span data-i18n="s3_q1">Where</span> <span class="hint" data-i18n="pick">(pick any)</span></legend>
+              <div class="cards">
+                <label class="card-opt"><input type="checkbox" name="format" value="Studio"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.5 6.5v11M3.5 9v6M17.5 6.5v11M20.5 9v6M6.5 12h11"/></svg><span data-i18n="fm1">At the studio</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="format" value="At home"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 11 12 4l8.5 7"/><path d="M6 9.5V20h12V9.5"/><path d="M10 20v-5h4v5"/></svg><span data-i18n="fm2">At my home</span></span></label>
+                <label class="card-opt"><input type="checkbox" name="format" value="Online"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7M12 16.5V20"/></svg><span data-i18n="fm3">Online</span></span></label>
+              </div>
+            </fieldset>
+            <fieldset class="q">
+              <legend data-i18n="s3_q2">Which option interests you?</legend>
+              <div class="seg pills">
+                <label class="pill-opt"><input type="radio" name="program" value="Single sessions"><span data-i18n="pg1">Single sessions</span></label>
+                <label class="pill-opt"><input type="radio" name="program" value="12-week program"><span data-i18n="pg2">12-week program</span></label>
+                <label class="pill-opt"><input type="radio" name="program" value="Online coaching"><span data-i18n="pg3">Online coaching</span></label>
+                <label class="pill-opt"><input type="radio" name="program" value="Not sure yet" checked><span data-i18n="pg4">Not sure yet</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="q">
+              <legend data-i18n="s3_q3">How often per week?</legend>
+              <div class="seg pills">
+                <label class="pill-opt"><input type="radio" name="frequency" value="1x per week"><span data-i18n="fq1">Once</span></label>
+                <label class="pill-opt"><input type="radio" name="frequency" value="2x per week" checked><span data-i18n="fq2">Twice</span></label>
+                <label class="pill-opt"><input type="radio" name="frequency" value="3x+ per week"><span data-i18n="fq3">3 or more</span></label>
+              </div>
+            </fieldset>
+            <fieldset class="q" style="margin-bottom:0">
+              <legend><span data-i18n="s3_q4">Best times for you</span> <span class="hint" data-i18n="pick">(pick any)</span></legend>
+              <div class="seg pills">
+                <label class="pill-opt"><input type="checkbox" name="times" value="Mornings"><span data-i18n="w1">Mornings</span></label>
+                <label class="pill-opt"><input type="checkbox" name="times" value="Afternoons"><span data-i18n="w2">Afternoons</span></label>
+                <label class="pill-opt"><input type="checkbox" name="times" value="Evenings"><span data-i18n="w3">Evenings</span></label>
+                <label class="pill-opt"><input type="checkbox" name="times" value="Weekends"><span data-i18n="w4">Weekends</span></label>
+              </div>
+            </fieldset>
+          </section>
+
+          <!-- STEP 4 · details -->
+          <section class="wiz-step" data-title="s4_title" aria-labelledby="h-s4">
+            <h2 id="h-s4" data-i18n="s4_h">How can I reach you?</h2>
+            <p class="muted" data-i18n="s4_p">I'll use this only to reply about your training.</p>
+            <div class="row-2 q">
+              <div class="field">
+                <label for="i-name" data-i18n="f_name">Your name</label>
+                <input id="i-name" name="name" type="text" autocomplete="name" required placeholder="Jane Doe" data-i18n-ph="f_name_ph">
+              </div>
+              <div class="field">
+                <label for="i-email" data-i18n="f_email">Email</label>
+                <input id="i-email" name="email" type="email" autocomplete="email" required placeholder="you@email.com" data-i18n-ph="f_email_ph">
+              </div>
+            </div>
+            <div class="row-2 q">
+              <div class="field">
+                <label for="i-phone"><span data-i18n="f_phone">Phone</span> <span class="hint" data-i18n="opt">(optional)</span></label>
+                <input id="i-phone" name="phone" type="tel" autocomplete="tel" placeholder="514 000-0000">
+              </div>
+              <fieldset class="field" style="border:none">
+                <legend class="label" data-i18n="f_pref" style="margin-bottom:8px">Best way to reach you</legend>
+                <div class="seg pills">
+                  <label class="pill-opt"><input type="radio" name="contact_by" value="Email" checked><span data-i18n="cb1">Email</span></label>
+                  <label class="pill-opt"><input type="radio" name="contact_by" value="Phone call"><span data-i18n="cb2">Call</span></label>
+                  <label class="pill-opt"><input type="radio" name="contact_by" value="Text"><span data-i18n="cb3">Text</span></label>
+                </div>
+              </fieldset>
+            </div>
+            <div class="field q">
+              <label for="i-msg"><span data-i18n="f_msg2">Anything else you'd like me to know?</span> <span class="hint" data-i18n="opt">(optional)</span></label>
+              <textarea id="i-msg" name="message" rows="3" placeholder="What would you like to feel or be able to do in 3 months?" data-i18n-ph="f_msg_ph"></textarea>
+            </div>
+            <label class="consent" data-required="consent">
+              <input type="checkbox" name="consent" value="Yes">
+              <span data-i18n="consent">I agree that Karen Cutler collects this information to reply to my request and plan my training, as described in the <a href="privacy.html" target="_blank" rel="noopener">privacy policy</a>.</span>
+            </label>
+          </section>
+
+          <!-- STEP 5 · review -->
+          <section class="wiz-step" data-title="s5_title" aria-labelledby="h-s5">
+            <h2 id="h-s5" data-i18n="s5_h">Ready to send?</h2>
+            <p class="muted" data-i18n="s5_p">Check your answers. You can edit any of them.</p>
+            <dl class="summary" data-summary></dl>
+          </section>
+
+          <p class="wiz-err" role="alert"></p>
         </div>
 
-        <button class="btn btn--primary magnetic" type="submit"><span data-i18n="f_send">Send my request</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-        <p class="form-status" role="status" aria-live="polite"></p>
+        <div class="wiz-nav">
+          <button class="btn btn--ghost" type="button" data-back hidden><span data-i18n="back">Back</span></button>
+          <button class="btn btn--primary magnetic" type="button" data-next style="margin-left:auto"><span data-i18n="next">Continue</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <button class="btn btn--primary magnetic" type="submit" data-send hidden style="margin-left:auto"><span data-i18n="send">Send my request</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </div>
 
-        <div class="form-success" tabindex="-1">
-          <svg class="draw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><polyline points="7.5 12.5 10.5 15.5 16.5 9"/></svg>
-          <h3 data-i18n="f_ok_t">Request sent</h3>
-          <p class="muted" data-i18n="f_ok_d">Thank you! Karen will get back to you personally very soon.</p>
+        <div class="wiz-done" tabindex="-1">
+          <svg class="big draw" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><polyline points="7.5 12.5 10.5 15.5 16.5 9"/></svg>
+          <h2 data-i18n="done_t">Request sent</h2>
+          <p class="muted" style="margin-top:10px" data-i18n="done_d">Thank you! A copy of your answers is on its way to your inbox.</p>
+          <ol class="next-steps">
+            <li><b>1</b><span data-i18n="done_1">Karen reads your answers and prepares for your call.</span></li>
+            <li><b>2</b><span data-i18n="done_2">She contacts you within 1–2 days to pick a time.</span></li>
+            <li><b>3</b><span data-i18n="done_3">Your free 20-minute intro call, then your first session.</span></li>
+          </ol>
+          <a class="btn btn--ghost" href="programs.html" data-i18n="done_cta">Explore the programs</a>
         </div>
       </form>
 
@@ -140,6 +243,7 @@
         <a href="tel:+15146061256"><span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6.6 3.5h2.6l1.5 4-2 1.3a11 11 0 0 0 6.5 6.5l1.3-2 4 1.5v2.6A2.1 2.1 0 0 1 18.4 19.5 15.9 15.9 0 0 1 4.5 5.6 2.1 2.1 0 0 1 6.6 3.5z"/></svg></span><span><small data-i18n="d_phone">Phone or text</small>514-606-1256</span></a>
         <a href="mailto:cutlerkarenann@gmail.com"><span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg></span><span><small data-i18n="d_email">Email</small>cutlerkarenann@gmail.com</span></a>
         <div class="d-row"><span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0C18.5 15.4 12 21 12 21z"/><circle cx="12" cy="10" r="2.4"/></svg></span><span><small data-i18n="d_where">Where</small>Montréal, QC</span></div>
+        <a class="ph-inline" href="#" data-ig style="border-bottom:none"><span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17 7h.01"/></svg></span><span><small>Instagram</small>@handle</span></a>
       </aside>
     </div>
   </section>
@@ -159,6 +263,7 @@
         <a href="menopause.html" data-i18n="nav_menopause">Menopause</a>
         <a href="about.html" data-i18n="nav_about">About</a>
         <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <a class="ph-inline" href="#" data-ig>Instagram @handle</a>
       </div>
       <div>
         <h4 data-i18n="foot_contact">Contact</h4>
@@ -169,10 +274,12 @@
     </div>
     <div class="foot-bottom">
       <span>© <span data-year></span> Karen Cutler. <span data-i18n="foot_rights">All rights reserved.</span></span>
-      <span data-i18n="foot_tag">Fitness with a smile</span>
+      <span class="foot-legal"><a href="privacy.html" data-i18n="foot_privacy">Privacy policy</a><a href="privacy.html#disclaimer" data-i18n="foot_disclaimer">Health disclaimer</a></span>
     </div>
   </div>
 </footer>
 <div class="wipe" aria-hidden="true"></div>
+<div class="concept-bar" role="note"><i></i><span>Concept preview. Yellow dashed = info needed from Karen.</span><button type="button" data-clean>Hide notes</button></div>
+<button class="concept-show" type="button" data-clean>Show notes</button>
 </body>
 </html>
